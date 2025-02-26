@@ -12,3 +12,15 @@ signupForm.addEventListener('submit',e=>{
     }
 })
 
+signupForm.username.addEventListener('keyup',e=>{
+    // console.log(e.target.value);
+
+    if(pattern.test(e.target.value)){
+        
+        signupForm.username.setAttribute('class','success');
+
+    }else{
+        signupForm.username.setAttribute('class','error');
+    }
+
+});

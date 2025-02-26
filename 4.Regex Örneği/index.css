@@ -1,0 +1,6 @@
+.success{
+    border: 10px solid green;
+}
+.error{
+    border: 10px solid red;
+}
