@@ -59,3 +59,22 @@ const sezerTotal = students.reduce((value,student)=>{
 },0);
 
 console.log(sezerTotal);
+
+/* FIND METODU FIND METODU FIND METODU FIND METODU FIND METODU FIND METODU FIND METODU FIND METODU FIND METODU FIND METODU  */
+/* ŞARTI SAĞLAYAN İLK ÖGEYİ DÖNDÜRÜR ŞARTI SAĞLAYAN İLK ÖGEYİ DÖNDÜRÜR ŞARTI SAĞLAYAN İLK ÖGEYİ DÖNDÜRÜR ŞARTI SAĞLAYAN İLK ÖGEYİ DÖNDÜRÜR  */
+const highPoints = points.find(point=>{
+    return point > 70;
+});
+
+console.log(highPoints);
+
+/* PUSH VE POP METODU EKLEME ÇIKARTMA İŞLEMLERİ İÇİN KULLANILMAKTADIR */
+
+points.push(90);
+
+console.log(points);
+
+points.pop();
+points.pop();
+
+console.log(points);
